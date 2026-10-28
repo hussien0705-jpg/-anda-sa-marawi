@@ -25,7 +25,10 @@ jobs:
         with:
           node-version: 20
       - name: Install
-        run: npm install
+        run: |
+          rm -rf package-lock.json node_modules
+          npm cache clean --force
+          npm install --legacy-peer-deps
       - name: Build
         run: npm run build
       - name: Setup Pages
