@@ -1,15 +1,17 @@
 {
   "name": "Anda sa Marawi?",
   "short_name": "Anda",
-  "start_url": "/",
+  "start_url": "/-anda-sa-marawi/",
+  "scope": "/-anda-sa-marawi/",
   "display": "standalone",
-  "background_color": "#064e3b",
-  "theme_color": "#064e3b",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
