@@ -1,0 +1,6 @@
+{
+  "name": "Anda sa Marawi?",
+  "description": "Direktoryo ng mga tindahan at negosyo sa Lungsod ng Marawi na may berdeng temang Halal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

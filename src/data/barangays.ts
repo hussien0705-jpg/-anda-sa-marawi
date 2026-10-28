@@ -1,0 +1,37 @@
+export const MARAWI_BARANGAYS = [
+  'Banggolo',
+  'Panggao Saduc',
+  'Saduc',
+  'Basak Malutlut',
+  'Datu Saber',
+  'Matampay',
+  'Lomidong',
+  'MSU Campus / Commercial Center',
+  'Rapasun',
+  'Bubonga Lilod',
+  'Raya Madaya',
+  'Tolali',
+  'Toros',
+  'Moncado Colony',
+  'Datu sa Dansalan',
+  'Gadongan',
+  'Papandayan',
+  'Guimba',
+  'Kilala',
+  'Kadingilan',
+  'East Basak',
+  'South Madalum',
+  'Marawi Poblacion',
+  'Lilod Madaya',
+  'Dayawan'
+];
+
+export const CATEGORIES_CONFIG: { id: import('../types').Category; label: string; iconName: string }[] = [
+  { id: 'lahat', label: 'Lahat ng Kategorya', iconName: 'Grid' },
+  { id: 'pagkain', label: 'Pagkain at Pastilan', iconName: 'UtensilsCrossed' },
+  { id: 'damit', label: 'Abaya, Hijab at Damit', iconName: 'Shirt' },
+  { id: 'motor', label: 'Pyesa at Motor', iconName: 'Wrench' },
+  { id: 'groseriya', label: 'Sari-Sari at Groseriya', iconName: 'ShoppingBag' },
+  { id: 'serbisyo', label: 'Serbisyo at Pag-aayos', iconName: 'Sparkles' },
+  { id: 'iba_pa', label: 'Iba pang Negosyo', iconName: 'Store' },
+];
